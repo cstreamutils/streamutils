@@ -11,16 +11,23 @@ Stream Utils
 * [append](#append) - append to stream 
 
 ### rep
-> search and replace
+> search and replace  
+
 ### del
-> search and delete
+> search and delete  
+
 ### upr
-> stream to upper case
-### lwr
-> stream to lower case
+> stream to upper case  
+
+### lwr 
+> stream to lower case  
+
 ### red
-> stream reader
+> stream reader  
+
 ### prepend
-> prepend to stream
+> prepend to stream  
+
 ### append
-> append to stream
+> append to stream  
+
