@@ -11,13 +11,14 @@ Stream Utils
 * [append](#append) - append to stream 
 
 ## Universal flags
-* `-n` - line number:`12` or line number range:`7-19`
+* `-n` - line number:`12` or line number range:`7,19`
 * `-v` - verbose
 * `-i` - inplace file edit
 * `-c` - color output
 
 ### rep
-> search and replace
+> search and replace  
+
 * `-z` - invert search regex
 * `-w` - wrap matching `"before:after"`
  * `::` to escape `:`
@@ -25,28 +26,34 @@ Stream Utils
 * `-a` - append matching string
 
 ### del
-> search and delete
+> search and delete  
+
 * `-z` - invert search regex
 * `-e` - empty lines
 
 ### red
-> stream reader
+> stream reader  
+
 * `-l` - print line numbers
 * `-e` - dont print empty lines
 * `-c` - use vim color syntax-highlight
 
 ### upr
-> stream to upper case
+> stream to upper case  
+
 * `-l` - apply to line (use with -n)
 
 ### lwr
-> stream to lower case
+> stream to lower case  
+
 * `-l` - apply to line (use with -n)
 
 ### prepend
-> prepend to stream
+> prepend to stream  
+
 * `-l` - prepend to line (use with -n)
 
 ### append
-> append to stream
+> append to stream  
+
 * `-l` - append to line (use with -n)
